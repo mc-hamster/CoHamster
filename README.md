@@ -181,6 +181,7 @@ Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, bui
 ## Acknowledgments
 
 - [llama.cpp](https://github.com/ggerganov/llama.cpp), [CotabbyInference](https://github.com/FuJacob/cotabbyinference), [Sparkle](https://github.com/sparkle-project/Sparkle), and [swift-log](https://github.com/apple/swift-log) for runtime, updates, and logging.
+- [LaunchAtLogin](https://github.com/sindresorhus/LaunchAtLogin-Modern) for macOS login-item integration.
 - Apple's FoundationModels, Accessibility, SwiftUI, and AppKit for on-device generation and macOS integration.
 - [GitHub gemoji](https://github.com/github/gemoji) and Hugging Face for the emoji data and downloadable models.
 - [SymSpell](https://github.com/wolfgarbe/SymSpell) by Wolf Garbe (MIT) for multilingual autocorrect; frequency dictionaries derive from [Google Ngrams](https://books.google.com/ngrams) (CC BY 3.0) and licensed SCOWL/Hunspell word lists.

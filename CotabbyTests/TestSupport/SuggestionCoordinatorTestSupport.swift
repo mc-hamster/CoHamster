@@ -53,6 +53,9 @@ final class RigLowPowerModeProvider: SuggestionLowPowerModeProviding {
 
 @MainActor
 final class RigFocusProvider: SuggestionFocusProviding {
+    /// Tests can simulate a recent poll followed by a focus change discovered only on refresh.
+    var millisecondsSinceLastCapture: Int?
+    var onRefresh: (() -> Void)?
     var snapshot: FocusSnapshot
     private(set) var refreshCount = 0
     private(set) var transientCaretCacheInvalidations = 0
@@ -69,6 +72,7 @@ final class RigFocusProvider: SuggestionFocusProviding {
 
     func refreshNow() {
         refreshCount += 1
+        onRefresh?()
     }
 
     func invalidateTransientCaretCaches() {

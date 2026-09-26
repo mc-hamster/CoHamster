@@ -100,7 +100,8 @@ extension SuggestionCoordinator {
     /// policy; the service owns the timer and pixels. A fresh AX read prevents a background capture
     /// from using the field that was focused three seconds ago after the user changes windows.
     func currentVisualRefreshContext() -> FocusedInputSnapshot? {
-        focusModel.refreshIfStale(maxAgeMilliseconds: 100)
+        // A window can switch immediately after a poll; capture authorization cannot reuse its age window.
+        focusModel.refreshNow()
         let snapshot = focusModel.snapshot
         guard let context = snapshot.context, !context.isSecure,
               SuggestionAvailabilityEvaluator.shouldCaptureVisualContext(

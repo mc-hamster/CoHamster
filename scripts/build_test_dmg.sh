@@ -4,7 +4,8 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-DERIVED_DATA="$REPO_ROOT/build/DerivedData"
+# This invocation owns this directory; cleanup must never remove another build's products.
+DERIVED_DATA=$(mktemp -d "${TMPDIR:-/tmp}/cotabby-test-dmg.XXXXXX")
 trap 'rm -rf "$DERIVED_DATA"' EXIT
 APP_PATH="$DERIVED_DATA/Build/Products/Debug/Cotabby.app"
 OUTPUT_PATH="/tmp/Cotabby-test.dmg"
