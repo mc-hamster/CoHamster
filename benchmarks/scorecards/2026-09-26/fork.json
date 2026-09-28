@@ -1,0 +1,2847 @@
+{
+  "apple": {
+    "manifest": {
+      "schemaVersion": 1,
+      "startedUTC": "2026-09-27T05:07:19.862607+00:00",
+      "label": "fork",
+      "model": "apple",
+      "smoke": false,
+      "build": {
+        "source": {
+          "sourceSHA256": "1a7d308bd522b40e7d4ef4c524d599d8f59f3c57b7a34e027fd4bbbad0dfa786",
+          "nonLockSourceSHA256": "7f322fb1e5d3108c8542e018c40a56289418c513088cf361aec1a122e8838c43",
+          "packageLocks": {
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/Cotabby.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved": null,
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace/xcshareddata/swiftpm/Package.resolved": "a62b4e4717d575e380a1f3f7826c62bdad996988ef35367c4ba177bf87c39ef9",
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/CotabbyInference/Package.resolved": null
+          }
+        },
+        "productSHA256": "efd5b6a6d676211a1ca760ed4d1abfc1cedb327377424c79a9ff2a3be5589a21",
+        "xctestrun": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/DerivedData/Build/Products/Cotabby_macosx27.0-arm64.xctestrun",
+        "upstreamAdapter": false,
+        "workspace": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace",
+        "revision": "f31abbd59970a86fc5184d1b6b7525a4d7854c16"
+      },
+      "modelSHA256": null,
+      "modelBytes": null,
+      "corpusSHA256": "b41c8089a58ae1e0ee84b95ac9283cf71db4e713e25bd8fed47220be69d8b0f6",
+      "hardware": {
+        "hw.model": "MacBookPro18,4",
+        "hw.memsize": "34359738368",
+        "hw.ncpu": "10",
+        "machdep.cpu.brand_string": "Apple M1 Max"
+      },
+      "os": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0\nBuildVersion:\t\t26A428",
+      "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=24903779)\t80%; AC attached; not charging present: true",
+      "dependencyLocks": {
+        "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace/xcshareddata/swiftpm/Package.resolved": {
+          "originHash": "3e1c883782f4dc5210a108f02295937ed5bb4087a7655ae0f04bafa746e54ef3",
+          "pins": [
+            {
+              "identity": "launchatlogin-modern",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/sindresorhus/LaunchAtLogin-Modern",
+              "state": {
+                "revision": "a04ec1c363be3627734f6dad757d82f5d4fa8fcc",
+                "version": "1.1.0"
+              }
+            },
+            {
+              "identity": "sparkle",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/sparkle-project/Sparkle",
+              "state": {
+                "revision": "066e75a8b3e99962685d6a90cdd5293ebffd9261",
+                "version": "2.9.1"
+              }
+            },
+            {
+              "identity": "swift-log",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/apple/swift-log.git",
+              "state": {
+                "revision": "9c6fb14227f55d8f711ce3847dc2f419fb0ecacb",
+                "version": "1.15.1"
+              }
+            }
+          ],
+          "version": 3
+        }
+      },
+      "status": "complete",
+      "checkout": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby",
+      "harnessSHA256": {
+        "benchmark_scorecard.py": "4ac376bef41ac7cd74e3c7ad57bc06d0b917a09acbf0b30f90a81fe457639ac5",
+        "benchmark_report.py": "9a5cd9a1aa6c8597aa058459bb80e54ea1af6336c1d11bcfeb3aa95249adf6df",
+        "phrase_eval.py": "5d55387b1e2e20b0904e27332a7598b4144063ea4fbf1b75067226c337566427",
+        "BENCHMARK_METHODOLOGY.md": "a5bac2d3f01c5be669db1966e9757a9af79ffdea22c631efcde60311c7b1676b"
+      },
+      "localNativeDependencies": [
+        {
+          "path": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/CotabbyInference",
+          "revision": "7574a21516c65fc31f5cf8ef7380a03412eed480",
+          "status": "M README.md\n M Sources/CotabbyInferenceEngine/CotabbyInferenceEngine.cpp\n A Sources/CotabbyInferenceEngine/TokenHealing.cpp\n A Sources/CotabbyInferenceEngine/TokenHealing.h\n M Sources/CotabbyInferenceEngine/include/CotabbyInferenceEngine.h\n M Tests/CotabbyInferenceTests/LlamaMiddlewareTests.swift\n A Tests/TokenHealingTests.cpp",
+          "diffSHA256": "fa9c78a037f8fae0165dcecc85512719bd73514ac84854edf3cba73aa874400a"
+        }
+      ],
+      "summarySHA256": "ea5848c5120e0b1d10b5f792aac4c48936b4f21d58891edbb14bb229bd006f06",
+      "journalSHA256": "834081b05701b6bac62ec9d91bfabfa9d4cb1ef50d872db77eb8ae1cdf13d1f6",
+      "finishedUTC": "2026-09-27T07:14:44.554004+00:00",
+      "powerAtFinish": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=24903779)\t80%; AC attached; not charging present: true"
+    },
+    "summary": {
+      "model": "apple",
+      "label": "fork",
+      "smoke": false,
+      "revision": "f31abbd59970a86fc5184d1b6b7525a4d7854c16",
+      "conditions": {
+        "none": {
+          "checkpoints": 7437,
+          "correct": 1815,
+          "accuracy": 0.24405002016942315,
+          "coverage": 0.9985209089686702,
+          "precision": 0.24441152706706168,
+          "errors": 0,
+          "p50ms": 466.500166,
+          "p95ms": 558.433417,
+          "correctFinalWithin500ms": 0.18139034556945005,
+          "oracleSavedWordCharacters": 5867,
+          "referenceWordCharacters": 35378,
+          "oracleWordKeystrokeReduction": 0.16583752614619254,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0,
+          "categories": {
+            "conversation": {
+              "checkpoints": 937,
+              "correct": 221,
+              "accuracy": 0.23585912486659552,
+              "coverage": 1.0,
+              "precision": 0.23585912486659552,
+              "errors": 0,
+              "p50ms": 461.062917,
+              "p95ms": 554.055542,
+              "correctFinalWithin500ms": 0.17716115261472787,
+              "oracleSavedWordCharacters": 579,
+              "referenceWordCharacters": 3781,
+              "oracleWordKeystrokeReduction": 0.15313409151018248,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "science": {
+              "checkpoints": 1052,
+              "correct": 358,
+              "accuracy": 0.3403041825095057,
+              "coverage": 0.9990494296577946,
+              "precision": 0.340627973358706,
+              "errors": 0,
+              "p50ms": 459.659291,
+              "p95ms": 515.6955,
+              "correctFinalWithin500ms": 0.279467680608365,
+              "oracleSavedWordCharacters": 1487,
+              "referenceWordCharacters": 5756,
+              "oracleWordKeystrokeReduction": 0.25833912439193885,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "entertainment": {
+              "checkpoints": 1065,
+              "correct": 235,
+              "accuracy": 0.22065727699530516,
+              "coverage": 0.9990610328638497,
+              "precision": 0.22086466165413535,
+              "errors": 0,
+              "p50ms": 468.932833,
+              "p95ms": 563.439375,
+              "correctFinalWithin500ms": 0.15211267605633802,
+              "oracleSavedWordCharacters": 748,
+              "referenceWordCharacters": 5064,
+              "oracleWordKeystrokeReduction": 0.14770932069510267,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "work": {
+              "checkpoints": 1113,
+              "correct": 281,
+              "accuracy": 0.252470799640611,
+              "coverage": 1.0,
+              "precision": 0.252470799640611,
+              "errors": 0,
+              "p50ms": 469.837583,
+              "p95ms": 562.9065,
+              "correctFinalWithin500ms": 0.17699910152740342,
+              "oracleSavedWordCharacters": 919,
+              "referenceWordCharacters": 5525,
+              "oracleWordKeystrokeReduction": 0.16633484162895928,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "technology": {
+              "checkpoints": 1131,
+              "correct": 190,
+              "accuracy": 0.16799292661361626,
+              "coverage": 0.9920424403183024,
+              "precision": 0.16934046345811052,
+              "errors": 0,
+              "p50ms": 468.482375,
+              "p95ms": 557.982833,
+              "correctFinalWithin500ms": 0.1317418213969938,
+              "oracleSavedWordCharacters": 673,
+              "referenceWordCharacters": 5885,
+              "oracleWordKeystrokeReduction": 0.11435853865760408,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "everyday": {
+              "checkpoints": 1036,
+              "correct": 298,
+              "accuracy": 0.2876447876447876,
+              "coverage": 1.0,
+              "precision": 0.2876447876447876,
+              "errors": 0,
+              "p50ms": 468.704,
+              "p95ms": 563.331625,
+              "correctFinalWithin500ms": 0.2084942084942085,
+              "oracleSavedWordCharacters": 791,
+              "referenceWordCharacters": 4531,
+              "oracleWordKeystrokeReduction": 0.1745751489737365,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "travel": {
+              "checkpoints": 1103,
+              "correct": 232,
+              "accuracy": 0.21033544877606528,
+              "coverage": 1.0,
+              "precision": 0.21033544877606528,
+              "errors": 0,
+              "p50ms": 467.398709,
+              "p95ms": 562.785209,
+              "correctFinalWithin500ms": 0.14959202175883954,
+              "oracleSavedWordCharacters": 670,
+              "referenceWordCharacters": 4836,
+              "oracleWordKeystrokeReduction": 0.13854425144747726,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            }
+          }
+        },
+        "screen": {
+          "checkpoints": 7437,
+          "correct": 2002,
+          "accuracy": 0.2691945677020304,
+          "coverage": 0.9986553717897001,
+          "precision": 0.2695570216776626,
+          "errors": 0,
+          "p50ms": 507.942166,
+          "p95ms": 597.749625,
+          "correctFinalWithin500ms": 0.12249562995831653,
+          "oracleSavedWordCharacters": 7058,
+          "referenceWordCharacters": 35378,
+          "oracleWordKeystrokeReduction": 0.19950251568771554,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0,
+          "categories": {
+            "conversation": {
+              "checkpoints": 937,
+              "correct": 273,
+              "accuracy": 0.2913553895410886,
+              "coverage": 1.0,
+              "precision": 0.2913553895410886,
+              "errors": 0,
+              "p50ms": 508.965209,
+              "p95ms": 605.081917,
+              "correctFinalWithin500ms": 0.09071504802561366,
+              "oracleSavedWordCharacters": 827,
+              "referenceWordCharacters": 3781,
+              "oracleWordKeystrokeReduction": 0.21872520497222958,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "science": {
+              "checkpoints": 1052,
+              "correct": 352,
+              "accuracy": 0.33460076045627374,
+              "coverage": 0.9990494296577946,
+              "precision": 0.33491912464319695,
+              "errors": 0,
+              "p50ms": 461.783291,
+              "p95ms": 519.689375,
+              "correctFinalWithin500ms": 0.26901140684410646,
+              "oracleSavedWordCharacters": 1558,
+              "referenceWordCharacters": 5756,
+              "oracleWordKeystrokeReduction": 0.27067407922168174,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "entertainment": {
+              "checkpoints": 1065,
+              "correct": 259,
+              "accuracy": 0.2431924882629108,
+              "coverage": 0.996244131455399,
+              "precision": 0.24410933081998115,
+              "errors": 0,
+              "p50ms": 477.222042,
+              "p95ms": 607.409834,
+              "correctFinalWithin500ms": 0.1295774647887324,
+              "oracleSavedWordCharacters": 893,
+              "referenceWordCharacters": 5064,
+              "oracleWordKeystrokeReduction": 0.17634281200631913,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "work": {
+              "checkpoints": 1113,
+              "correct": 282,
+              "accuracy": 0.25336927223719674,
+              "coverage": 1.0,
+              "precision": 0.25336927223719674,
+              "errors": 0,
+              "p50ms": 533.328375,
+              "p95ms": 607.560416,
+              "correctFinalWithin500ms": 0.047619047619047616,
+              "oracleSavedWordCharacters": 1021,
+              "referenceWordCharacters": 5525,
+              "oracleWordKeystrokeReduction": 0.18479638009049773,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "technology": {
+              "checkpoints": 1131,
+              "correct": 206,
+              "accuracy": 0.18213969938107868,
+              "coverage": 0.9982316534040672,
+              "precision": 0.1824623560673162,
+              "errors": 0,
+              "p50ms": 510.934833,
+              "p95ms": 579.048291,
+              "correctFinalWithin500ms": 0.07073386383731212,
+              "oracleSavedWordCharacters": 804,
+              "referenceWordCharacters": 5885,
+              "oracleWordKeystrokeReduction": 0.13661852166525063,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "everyday": {
+              "checkpoints": 1036,
+              "correct": 331,
+              "accuracy": 0.3194980694980695,
+              "coverage": 0.999034749034749,
+              "precision": 0.31980676328502416,
+              "errors": 0,
+              "p50ms": 476.287584,
+              "p95ms": 587.354666,
+              "correctFinalWithin500ms": 0.17084942084942084,
+              "oracleSavedWordCharacters": 1023,
+              "referenceWordCharacters": 4531,
+              "oracleWordKeystrokeReduction": 0.22577797395718385,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "travel": {
+              "checkpoints": 1103,
+              "correct": 299,
+              "accuracy": 0.27107887579329104,
+              "coverage": 0.9981867633726201,
+              "precision": 0.27157129881925524,
+              "errors": 0,
+              "p50ms": 511.355708,
+              "p95ms": 600.1405,
+              "correctFinalWithin500ms": 0.08612873980054397,
+              "oracleSavedWordCharacters": 932,
+              "referenceWordCharacters": 4836,
+              "oracleWordKeystrokeReduction": 0.19272125723738626,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            }
+          }
+        }
+      },
+      "partial": {
+        "none": {
+          "checkpoints": 232,
+          "correct": 121,
+          "accuracy": 0.521551724137931,
+          "coverage": 0.9482758620689655,
+          "precision": 0.55,
+          "errors": 0,
+          "p50ms": 465.980792,
+          "p95ms": 578.223208,
+          "correctFinalWithin500ms": 0.3017241379310345,
+          "oracleSavedWordCharacters": 0,
+          "referenceWordCharacters": 0,
+          "oracleWordKeystrokeReduction": null,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0
+        },
+        "screen": {
+          "checkpoints": 232,
+          "correct": 115,
+          "accuracy": 0.4956896551724138,
+          "coverage": 0.978448275862069,
+          "precision": 0.5066079295154186,
+          "errors": 0,
+          "p50ms": 519.871834,
+          "p95ms": 626.779417,
+          "correctFinalWithin500ms": 0.11637931034482758,
+          "oracleSavedWordCharacters": 0,
+          "referenceWordCharacters": 0,
+          "oracleWordKeystrokeReduction": null,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0
+        }
+      },
+      "timing": {
+        "none-reset": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 6,
+          "firstVisibleP50ms": 455.100834,
+          "firstVisibleP95ms": 557.186375,
+          "usefulBy500ms": 0.14285714285714285,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "none-prewarmed": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 6,
+          "firstVisibleP50ms": 532.463041,
+          "firstVisibleP95ms": 633.162708,
+          "usefulBy500ms": 0.0,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "screen-reset": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 9,
+          "firstVisibleP50ms": 502.92075,
+          "firstVisibleP95ms": 572.658167,
+          "usefulBy500ms": 0.023809523809523808,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "screen-prewarmed": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 9,
+          "firstVisibleP50ms": 579.581083,
+          "firstVisibleP95ms": 635.79275,
+          "usefulBy500ms": 0.0,
+          "revisions": 0,
+          "withdrawals": 0
+        }
+      },
+      "contextLiftPP": 2.5144547532607224,
+      "resources": {
+        "processCPUSeconds": 183.445956,
+        "processPeakRSSBytes": 117833728,
+        "wallSeconds": 7640.4131461669995
+      },
+      "metadata": {
+        "confidenceFloor": "-inf",
+        "configuration": "SuggestionConfiguration(maxPredictionTokens: 5, debounceMilliseconds: 20, temperature: 0.1, topK: 20, topP: 0.7, minP: 0.08, repetitionPenalty: 1.025, randomSeed: Optional(42), maxPrefixWords: 150, maxPrefixCharacters: 2500, maxPrefixWordsFoundationModel: 150, maxPrefixCharactersFoundationModel: 2500, maxSuffixCharacters: 192, llamaPromptTokenBudget: 1934, defaultUserName: Optional(\"Jacob\"), defaultWordCountPreset: Cotabby.SuggestionWordCountPreset.fourToSeven, focusPollIntervalMilliseconds: 50)",
+        "corpusSHA256": "b41c8089a58ae1e0ee84b95ac9283cf71db4e713e25bd8fed47220be69d8b0f6",
+        "engine": "apple",
+        "loadMilliseconds": "0.596667",
+        "model": "Apple SystemLanguageModel.default",
+        "os": "Version 27.0 (Build 26A428)",
+        "seed": "not controllable through production Apple engine",
+        "smoke": "false",
+        "stopAtArgmaxEOG": "true",
+        "wordCount": "4-7"
+      },
+      "cancellation": {
+        "trials": 28,
+        "completedBeforeCancel": 0,
+        "interrupted": 28,
+        "latePartials": 0,
+        "drainP50ms": 0.247666,
+        "drainP95ms": 0.313375,
+        "outcomes": {
+          "cancelled": 28
+        }
+      },
+      "interactions": {
+        "trials": 21,
+        "visibleTrials": 21,
+        "firstVisibleP50ms": 708.83025,
+        "firstVisibleP95ms": 965.590125,
+        "correctBy500ms": 0.0,
+        "acceptanceAttempts": 63,
+        "accepted": 63,
+        "insertedCharacters": 318,
+        "insertionMismatches": 0,
+        "presentationsAfterBlockedFocus": 0,
+        "acceptedInBlockedField": 0,
+        "insertedInBlockedField": 0
+      }
+    }
+  },
+  "nano": {
+    "manifest": {
+      "schemaVersion": 1,
+      "startedUTC": "2026-09-26T20:58:05.126430+00:00",
+      "label": "fork",
+      "model": "nano",
+      "smoke": false,
+      "build": {
+        "source": {
+          "sourceSHA256": "1a7d308bd522b40e7d4ef4c524d599d8f59f3c57b7a34e027fd4bbbad0dfa786",
+          "nonLockSourceSHA256": "7f322fb1e5d3108c8542e018c40a56289418c513088cf361aec1a122e8838c43",
+          "packageLocks": {
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/Cotabby.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved": null,
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace/xcshareddata/swiftpm/Package.resolved": "a62b4e4717d575e380a1f3f7826c62bdad996988ef35367c4ba177bf87c39ef9",
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/CotabbyInference/Package.resolved": null
+          }
+        },
+        "productSHA256": "efd5b6a6d676211a1ca760ed4d1abfc1cedb327377424c79a9ff2a3be5589a21",
+        "xctestrun": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/DerivedData/Build/Products/Cotabby_macosx27.0-arm64.xctestrun",
+        "upstreamAdapter": false,
+        "workspace": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace",
+        "revision": "f31abbd59970a86fc5184d1b6b7525a4d7854c16"
+      },
+      "modelSHA256": "febd85051361ccb34d0925744c819f9ae0724117e8f946a2852dd0edfa90a5a1",
+      "modelBytes": 629744512,
+      "corpusSHA256": "b41c8089a58ae1e0ee84b95ac9283cf71db4e713e25bd8fed47220be69d8b0f6",
+      "hardware": {
+        "hw.model": "MacBookPro18,4",
+        "hw.memsize": "34359738368",
+        "hw.ncpu": "10",
+        "machdep.cpu.brand_string": "Apple M1 Max"
+      },
+      "os": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0\nBuildVersion:\t\t26A428",
+      "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=24903779)\t80%; AC attached; not charging present: true",
+      "dependencyLocks": {
+        "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace/xcshareddata/swiftpm/Package.resolved": {
+          "originHash": "3e1c883782f4dc5210a108f02295937ed5bb4087a7655ae0f04bafa746e54ef3",
+          "pins": [
+            {
+              "identity": "launchatlogin-modern",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/sindresorhus/LaunchAtLogin-Modern",
+              "state": {
+                "revision": "a04ec1c363be3627734f6dad757d82f5d4fa8fcc",
+                "version": "1.1.0"
+              }
+            },
+            {
+              "identity": "sparkle",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/sparkle-project/Sparkle",
+              "state": {
+                "revision": "066e75a8b3e99962685d6a90cdd5293ebffd9261",
+                "version": "2.9.1"
+              }
+            },
+            {
+              "identity": "swift-log",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/apple/swift-log.git",
+              "state": {
+                "revision": "9c6fb14227f55d8f711ce3847dc2f419fb0ecacb",
+                "version": "1.15.1"
+              }
+            }
+          ],
+          "version": 3
+        }
+      },
+      "status": "complete",
+      "checkout": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby",
+      "harnessSHA256": {
+        "benchmark_scorecard.py": "4ac376bef41ac7cd74e3c7ad57bc06d0b917a09acbf0b30f90a81fe457639ac5",
+        "benchmark_report.py": "9a5cd9a1aa6c8597aa058459bb80e54ea1af6336c1d11bcfeb3aa95249adf6df",
+        "phrase_eval.py": "5d55387b1e2e20b0904e27332a7598b4144063ea4fbf1b75067226c337566427",
+        "BENCHMARK_METHODOLOGY.md": "a5bac2d3f01c5be669db1966e9757a9af79ffdea22c631efcde60311c7b1676b"
+      },
+      "localNativeDependencies": [
+        {
+          "path": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/CotabbyInference",
+          "revision": "7574a21516c65fc31f5cf8ef7380a03412eed480",
+          "status": "M README.md\n M Sources/CotabbyInferenceEngine/CotabbyInferenceEngine.cpp\n A Sources/CotabbyInferenceEngine/TokenHealing.cpp\n A Sources/CotabbyInferenceEngine/TokenHealing.h\n M Sources/CotabbyInferenceEngine/include/CotabbyInferenceEngine.h\n M Tests/CotabbyInferenceTests/LlamaMiddlewareTests.swift\n A Tests/TokenHealingTests.cpp",
+          "diffSHA256": "fa9c78a037f8fae0165dcecc85512719bd73514ac84854edf3cba73aa874400a"
+        }
+      ],
+      "summarySHA256": "7c46b44c80285df1f25b74b28be3cdf51dfedd3586d288179d44876b2b9256c5",
+      "journalSHA256": "18ad8372a75873f4083f1014bc1c5c51a6c47bcceccd8eae310d3f004217654c",
+      "finishedUTC": "2026-09-26T21:18:18.752595+00:00",
+      "powerAtFinish": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=24903779)\t80%; AC attached; not charging present: true"
+    },
+    "summary": {
+      "model": "nano",
+      "label": "fork",
+      "smoke": false,
+      "revision": "f31abbd59970a86fc5184d1b6b7525a4d7854c16",
+      "conditions": {
+        "none": {
+          "checkpoints": 7437,
+          "correct": 2306,
+          "accuracy": 0.3100712652951459,
+          "coverage": 1.0,
+          "precision": 0.3100712652951459,
+          "errors": 0,
+          "p50ms": 78.073042,
+          "p95ms": 124.538875,
+          "correctFinalWithin500ms": 0.3100712652951459,
+          "oracleSavedWordCharacters": 6554,
+          "referenceWordCharacters": 35378,
+          "oracleWordKeystrokeReduction": 0.18525637401775114,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0,
+          "categories": {
+            "conversation": {
+              "checkpoints": 937,
+              "correct": 312,
+              "accuracy": 0.3329775880469584,
+              "coverage": 1.0,
+              "precision": 0.3329775880469584,
+              "errors": 0,
+              "p50ms": 60.532708,
+              "p95ms": 107.768125,
+              "correctFinalWithin500ms": 0.3329775880469584,
+              "oracleSavedWordCharacters": 713,
+              "referenceWordCharacters": 3781,
+              "oracleWordKeystrokeReduction": 0.18857445120338534,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "science": {
+              "checkpoints": 1052,
+              "correct": 478,
+              "accuracy": 0.4543726235741445,
+              "coverage": 1.0,
+              "precision": 0.4543726235741445,
+              "errors": 0,
+              "p50ms": 74.810125,
+              "p95ms": 111.995916,
+              "correctFinalWithin500ms": 0.4543726235741445,
+              "oracleSavedWordCharacters": 1832,
+              "referenceWordCharacters": 5756,
+              "oracleWordKeystrokeReduction": 0.3182765809589993,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "entertainment": {
+              "checkpoints": 1065,
+              "correct": 282,
+              "accuracy": 0.2647887323943662,
+              "coverage": 1.0,
+              "precision": 0.2647887323943662,
+              "errors": 0,
+              "p50ms": 83.319,
+              "p95ms": 120.797333,
+              "correctFinalWithin500ms": 0.2647887323943662,
+              "oracleSavedWordCharacters": 720,
+              "referenceWordCharacters": 5064,
+              "oracleWordKeystrokeReduction": 0.14218009478672985,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "work": {
+              "checkpoints": 1113,
+              "correct": 329,
+              "accuracy": 0.29559748427672955,
+              "coverage": 1.0,
+              "precision": 0.29559748427672955,
+              "errors": 0,
+              "p50ms": 88.419917,
+              "p95ms": 123.928834,
+              "correctFinalWithin500ms": 0.29559748427672955,
+              "oracleSavedWordCharacters": 915,
+              "referenceWordCharacters": 5525,
+              "oracleWordKeystrokeReduction": 0.16561085972850678,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "technology": {
+              "checkpoints": 1131,
+              "correct": 294,
+              "accuracy": 0.259946949602122,
+              "coverage": 1.0,
+              "precision": 0.259946949602122,
+              "errors": 0,
+              "p50ms": 83.548791,
+              "p95ms": 128.454541,
+              "correctFinalWithin500ms": 0.259946949602122,
+              "oracleSavedWordCharacters": 930,
+              "referenceWordCharacters": 5885,
+              "oracleWordKeystrokeReduction": 0.1580288870008496,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "everyday": {
+              "checkpoints": 1036,
+              "correct": 287,
+              "accuracy": 0.27702702702702703,
+              "coverage": 1.0,
+              "precision": 0.27702702702702703,
+              "errors": 0,
+              "p50ms": 76.471042,
+              "p95ms": 131.741334,
+              "correctFinalWithin500ms": 0.27702702702702703,
+              "oracleSavedWordCharacters": 644,
+              "referenceWordCharacters": 4531,
+              "oracleWordKeystrokeReduction": 0.14213197969543148,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "travel": {
+              "checkpoints": 1103,
+              "correct": 324,
+              "accuracy": 0.2937443336355394,
+              "coverage": 1.0,
+              "precision": 0.2937443336355394,
+              "errors": 0,
+              "p50ms": 78.104042,
+              "p95ms": 139.124667,
+              "correctFinalWithin500ms": 0.2937443336355394,
+              "oracleSavedWordCharacters": 800,
+              "referenceWordCharacters": 4836,
+              "oracleWordKeystrokeReduction": 0.1654259718775848,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            }
+          }
+        },
+        "screen": {
+          "checkpoints": 7437,
+          "correct": 2789,
+          "accuracy": 0.37501680785262875,
+          "coverage": 0.99986553717897,
+          "precision": 0.37506724045185585,
+          "errors": 0,
+          "p50ms": 63.138,
+          "p95ms": 130.388792,
+          "correctFinalWithin500ms": 0.37501680785262875,
+          "oracleSavedWordCharacters": 8399,
+          "referenceWordCharacters": 35378,
+          "oracleWordKeystrokeReduction": 0.23740742834529935,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0,
+          "categories": {
+            "conversation": {
+              "checkpoints": 937,
+              "correct": 401,
+              "accuracy": 0.4279615795090715,
+              "coverage": 1.0,
+              "precision": 0.4279615795090715,
+              "errors": 0,
+              "p50ms": 49.506083,
+              "p95ms": 112.898166,
+              "correctFinalWithin500ms": 0.4279615795090715,
+              "oracleSavedWordCharacters": 1041,
+              "referenceWordCharacters": 3781,
+              "oracleWordKeystrokeReduction": 0.275323988362867,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "science": {
+              "checkpoints": 1052,
+              "correct": 486,
+              "accuracy": 0.4619771863117871,
+              "coverage": 1.0,
+              "precision": 0.4619771863117871,
+              "errors": 0,
+              "p50ms": 68.017334,
+              "p95ms": 123.958125,
+              "correctFinalWithin500ms": 0.4619771863117871,
+              "oracleSavedWordCharacters": 1873,
+              "referenceWordCharacters": 5756,
+              "oracleWordKeystrokeReduction": 0.3253995830437804,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "entertainment": {
+              "checkpoints": 1065,
+              "correct": 356,
+              "accuracy": 0.3342723004694836,
+              "coverage": 1.0,
+              "precision": 0.3342723004694836,
+              "errors": 0,
+              "p50ms": 58.432542,
+              "p95ms": 125.2585,
+              "correctFinalWithin500ms": 0.3342723004694836,
+              "oracleSavedWordCharacters": 1049,
+              "referenceWordCharacters": 5064,
+              "oracleWordKeystrokeReduction": 0.20714849921011058,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "work": {
+              "checkpoints": 1113,
+              "correct": 410,
+              "accuracy": 0.3683737646001797,
+              "coverage": 1.0,
+              "precision": 0.3683737646001797,
+              "errors": 0,
+              "p50ms": 70.582667,
+              "p95ms": 132.26575,
+              "correctFinalWithin500ms": 0.3683737646001797,
+              "oracleSavedWordCharacters": 1222,
+              "referenceWordCharacters": 5525,
+              "oracleWordKeystrokeReduction": 0.2211764705882353,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "technology": {
+              "checkpoints": 1131,
+              "correct": 356,
+              "accuracy": 0.3147656940760389,
+              "coverage": 0.9991158267020336,
+              "precision": 0.31504424778761064,
+              "errors": 0,
+              "p50ms": 70.532375,
+              "p95ms": 136.496209,
+              "correctFinalWithin500ms": 0.3147656940760389,
+              "oracleSavedWordCharacters": 1106,
+              "referenceWordCharacters": 5885,
+              "oracleWordKeystrokeReduction": 0.1879354290569244,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "everyday": {
+              "checkpoints": 1036,
+              "correct": 384,
+              "accuracy": 0.37065637065637064,
+              "coverage": 1.0,
+              "precision": 0.37065637065637064,
+              "errors": 0,
+              "p50ms": 58.198209,
+              "p95ms": 132.526209,
+              "correctFinalWithin500ms": 0.37065637065637064,
+              "oracleSavedWordCharacters": 1073,
+              "referenceWordCharacters": 4531,
+              "oracleWordKeystrokeReduction": 0.23681306554844406,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "travel": {
+              "checkpoints": 1103,
+              "correct": 396,
+              "accuracy": 0.3590208522212149,
+              "coverage": 1.0,
+              "precision": 0.3590208522212149,
+              "errors": 0,
+              "p50ms": 66.068292,
+              "p95ms": 140.919958,
+              "correctFinalWithin500ms": 0.3590208522212149,
+              "oracleSavedWordCharacters": 1035,
+              "referenceWordCharacters": 4836,
+              "oracleWordKeystrokeReduction": 0.2140198511166253,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            }
+          }
+        }
+      },
+      "partial": {
+        "none": {
+          "checkpoints": 232,
+          "correct": 198,
+          "accuracy": 0.853448275862069,
+          "coverage": 1.0,
+          "precision": 0.853448275862069,
+          "errors": 0,
+          "p50ms": 63.984291,
+          "p95ms": 137.09225,
+          "correctFinalWithin500ms": 0.853448275862069,
+          "oracleSavedWordCharacters": 0,
+          "referenceWordCharacters": 0,
+          "oracleWordKeystrokeReduction": null,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0
+        },
+        "screen": {
+          "checkpoints": 232,
+          "correct": 218,
+          "accuracy": 0.9396551724137931,
+          "coverage": 1.0,
+          "precision": 0.9396551724137931,
+          "errors": 0,
+          "p50ms": 59.010166,
+          "p95ms": 137.3235,
+          "correctFinalWithin500ms": 0.9396551724137931,
+          "oracleSavedWordCharacters": 0,
+          "referenceWordCharacters": 0,
+          "oracleWordKeystrokeReduction": null,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0
+        }
+      },
+      "timing": {
+        "none-reset": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 15,
+          "firstVisibleP50ms": 69.182083,
+          "firstVisibleP95ms": 72.318958,
+          "usefulBy500ms": 0.35714285714285715,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "none-prewarmed": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 15,
+          "firstVisibleP50ms": 44.46575,
+          "firstVisibleP95ms": 46.886292,
+          "usefulBy500ms": 0.35714285714285715,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "screen-reset": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 18,
+          "firstVisibleP50ms": 85.60575,
+          "firstVisibleP95ms": 101.015625,
+          "usefulBy500ms": 0.42857142857142855,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "screen-prewarmed": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 18,
+          "firstVisibleP50ms": 47.102666,
+          "firstVisibleP95ms": 51.893083,
+          "usefulBy500ms": 0.42857142857142855,
+          "revisions": 0,
+          "withdrawals": 0
+        }
+      },
+      "contextLiftPP": 6.494554255748286,
+      "resources": {
+        "processCPUSeconds": 312.38607099999996,
+        "processPeakRSSBytes": 973012992,
+        "wallSeconds": 1209.0201038750001
+      },
+      "metadata": {
+        "confidenceFloor": "-inf",
+        "configuration": "SuggestionConfiguration(maxPredictionTokens: 5, debounceMilliseconds: 20, temperature: 0.1, topK: 20, topP: 0.7, minP: 0.08, repetitionPenalty: 1.025, randomSeed: Optional(42), maxPrefixWords: 150, maxPrefixCharacters: 2500, maxPrefixWordsFoundationModel: 150, maxPrefixCharactersFoundationModel: 2500, maxSuffixCharacters: 192, llamaPromptTokenBudget: 1934, defaultUserName: Optional(\"Jacob\"), defaultWordCountPreset: Cotabby.SuggestionWordCountPreset.fourToSeven, focusPollIntervalMilliseconds: 50)",
+        "corpusSHA256": "b41c8089a58ae1e0ee84b95ac9283cf71db4e713e25bd8fed47220be69d8b0f6",
+        "engine": "llama",
+        "loadMilliseconds": "436.937459",
+        "model": "/Users/jmcasler/Library/Application Support/Cotabby McHamster/LlamaRuntime/Qwen3.5-0.8B-Base.i1-Q6_K.gguf",
+        "os": "Version 27.0 (Build 26A428)",
+        "seed": "42",
+        "smoke": "false",
+        "stopAtArgmaxEOG": "true",
+        "wordCount": "4-7"
+      },
+      "cancellation": {
+        "trials": 28,
+        "completedBeforeCancel": 1,
+        "interrupted": 27,
+        "latePartials": 18,
+        "drainP50ms": 1.696375,
+        "drainP95ms": 8.8905,
+        "outcomes": {
+          "cancelled": 27
+        }
+      },
+      "interactions": {
+        "trials": 21,
+        "visibleTrials": 21,
+        "firstVisibleP50ms": 113.36025,
+        "firstVisibleP95ms": 129.865125,
+        "correctBy500ms": 0.2857142857142857,
+        "acceptanceAttempts": 63,
+        "accepted": 63,
+        "insertedCharacters": 267,
+        "insertionMismatches": 0,
+        "presentationsAfterBlockedFocus": 0,
+        "acceptedInBlockedField": 0,
+        "insertedInBlockedField": 0
+      }
+    }
+  },
+  "mini": {
+    "manifest": {
+      "schemaVersion": 1,
+      "startedUTC": "2026-09-26T21:18:19.451697+00:00",
+      "label": "fork",
+      "model": "mini",
+      "smoke": false,
+      "build": {
+        "source": {
+          "sourceSHA256": "1a7d308bd522b40e7d4ef4c524d599d8f59f3c57b7a34e027fd4bbbad0dfa786",
+          "nonLockSourceSHA256": "7f322fb1e5d3108c8542e018c40a56289418c513088cf361aec1a122e8838c43",
+          "packageLocks": {
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/Cotabby.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved": null,
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace/xcshareddata/swiftpm/Package.resolved": "a62b4e4717d575e380a1f3f7826c62bdad996988ef35367c4ba177bf87c39ef9",
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/CotabbyInference/Package.resolved": null
+          }
+        },
+        "productSHA256": "efd5b6a6d676211a1ca760ed4d1abfc1cedb327377424c79a9ff2a3be5589a21",
+        "xctestrun": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/DerivedData/Build/Products/Cotabby_macosx27.0-arm64.xctestrun",
+        "upstreamAdapter": false,
+        "workspace": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace",
+        "revision": "f31abbd59970a86fc5184d1b6b7525a4d7854c16"
+      },
+      "modelSHA256": "e3daa3f6e5ed8de264fc6e4128713ae1eb0c2649ad69b83f97bfc6a6ddca3da8",
+      "modelBytes": 1274397056,
+      "corpusSHA256": "b41c8089a58ae1e0ee84b95ac9283cf71db4e713e25bd8fed47220be69d8b0f6",
+      "hardware": {
+        "hw.model": "MacBookPro18,4",
+        "hw.memsize": "34359738368",
+        "hw.ncpu": "10",
+        "machdep.cpu.brand_string": "Apple M1 Max"
+      },
+      "os": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0\nBuildVersion:\t\t26A428",
+      "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=24903779)\t80%; AC attached; not charging present: true",
+      "dependencyLocks": {
+        "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace/xcshareddata/swiftpm/Package.resolved": {
+          "originHash": "3e1c883782f4dc5210a108f02295937ed5bb4087a7655ae0f04bafa746e54ef3",
+          "pins": [
+            {
+              "identity": "launchatlogin-modern",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/sindresorhus/LaunchAtLogin-Modern",
+              "state": {
+                "revision": "a04ec1c363be3627734f6dad757d82f5d4fa8fcc",
+                "version": "1.1.0"
+              }
+            },
+            {
+              "identity": "sparkle",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/sparkle-project/Sparkle",
+              "state": {
+                "revision": "066e75a8b3e99962685d6a90cdd5293ebffd9261",
+                "version": "2.9.1"
+              }
+            },
+            {
+              "identity": "swift-log",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/apple/swift-log.git",
+              "state": {
+                "revision": "9c6fb14227f55d8f711ce3847dc2f419fb0ecacb",
+                "version": "1.15.1"
+              }
+            }
+          ],
+          "version": 3
+        }
+      },
+      "status": "complete",
+      "checkout": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby",
+      "harnessSHA256": {
+        "benchmark_scorecard.py": "4ac376bef41ac7cd74e3c7ad57bc06d0b917a09acbf0b30f90a81fe457639ac5",
+        "benchmark_report.py": "9a5cd9a1aa6c8597aa058459bb80e54ea1af6336c1d11bcfeb3aa95249adf6df",
+        "phrase_eval.py": "5d55387b1e2e20b0904e27332a7598b4144063ea4fbf1b75067226c337566427",
+        "BENCHMARK_METHODOLOGY.md": "a5bac2d3f01c5be669db1966e9757a9af79ffdea22c631efcde60311c7b1676b"
+      },
+      "localNativeDependencies": [
+        {
+          "path": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/CotabbyInference",
+          "revision": "7574a21516c65fc31f5cf8ef7380a03412eed480",
+          "status": "M README.md\n M Sources/CotabbyInferenceEngine/CotabbyInferenceEngine.cpp\n A Sources/CotabbyInferenceEngine/TokenHealing.cpp\n A Sources/CotabbyInferenceEngine/TokenHealing.h\n M Sources/CotabbyInferenceEngine/include/CotabbyInferenceEngine.h\n M Tests/CotabbyInferenceTests/LlamaMiddlewareTests.swift\n A Tests/TokenHealingTests.cpp",
+          "diffSHA256": "fa9c78a037f8fae0165dcecc85512719bd73514ac84854edf3cba73aa874400a"
+        }
+      ],
+      "summarySHA256": "463d8bddb6ede402ec9834e3dcff9c3f3416dbea25e8b19f8743e9432ee3fac9",
+      "journalSHA256": "8d23bc0c9bb393d3633f98f4536487798516251fb9b9331cc44d6a8b986f6ac9",
+      "finishedUTC": "2026-09-26T22:00:13.183529+00:00",
+      "powerAtFinish": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=24903779)\t80%; AC attached; not charging present: true"
+    },
+    "summary": {
+      "model": "mini",
+      "label": "fork",
+      "smoke": false,
+      "revision": "f31abbd59970a86fc5184d1b6b7525a4d7854c16",
+      "conditions": {
+        "none": {
+          "checkpoints": 7437,
+          "correct": 2572,
+          "accuracy": 0.34583837568912196,
+          "coverage": 0.9997310743579401,
+          "precision": 0.34593140551445867,
+          "errors": 0,
+          "p50ms": 161.060708,
+          "p95ms": 285.873458,
+          "correctFinalWithin500ms": 0.345434987226032,
+          "oracleSavedWordCharacters": 7508,
+          "referenceWordCharacters": 35378,
+          "oracleWordKeystrokeReduction": 0.21222228503589802,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0,
+          "categories": {
+            "conversation": {
+              "checkpoints": 937,
+              "correct": 333,
+              "accuracy": 0.35538954108858056,
+              "coverage": 1.0,
+              "precision": 0.35538954108858056,
+              "errors": 0,
+              "p50ms": 116.632417,
+              "p95ms": 233.341709,
+              "correctFinalWithin500ms": 0.35538954108858056,
+              "oracleSavedWordCharacters": 761,
+              "referenceWordCharacters": 3781,
+              "oracleWordKeystrokeReduction": 0.20126950542184607,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "science": {
+              "checkpoints": 1052,
+              "correct": 494,
+              "accuracy": 0.4695817490494297,
+              "coverage": 1.0,
+              "precision": 0.4695817490494297,
+              "errors": 0,
+              "p50ms": 178.707417,
+              "p95ms": 295.120084,
+              "correctFinalWithin500ms": 0.4695817490494297,
+              "oracleSavedWordCharacters": 1892,
+              "referenceWordCharacters": 5756,
+              "oracleWordKeystrokeReduction": 0.32870048644892286,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "entertainment": {
+              "checkpoints": 1065,
+              "correct": 320,
+              "accuracy": 0.3004694835680751,
+              "coverage": 1.0,
+              "precision": 0.3004694835680751,
+              "errors": 0,
+              "p50ms": 186.8935,
+              "p95ms": 288.659042,
+              "correctFinalWithin500ms": 0.3004694835680751,
+              "oracleSavedWordCharacters": 889,
+              "referenceWordCharacters": 5064,
+              "oracleWordKeystrokeReduction": 0.1755529225908373,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "work": {
+              "checkpoints": 1113,
+              "correct": 371,
+              "accuracy": 0.3333333333333333,
+              "coverage": 0.9982030548068284,
+              "precision": 0.3339333933393339,
+              "errors": 0,
+              "p50ms": 166.515167,
+              "p95ms": 266.51875,
+              "correctFinalWithin500ms": 0.3333333333333333,
+              "oracleSavedWordCharacters": 1095,
+              "referenceWordCharacters": 5525,
+              "oracleWordKeystrokeReduction": 0.19819004524886877,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "technology": {
+              "checkpoints": 1131,
+              "correct": 336,
+              "accuracy": 0.29708222811671087,
+              "coverage": 1.0,
+              "precision": 0.29708222811671087,
+              "errors": 0,
+              "p50ms": 160.211041,
+              "p95ms": 247.326417,
+              "correctFinalWithin500ms": 0.29708222811671087,
+              "oracleSavedWordCharacters": 1078,
+              "referenceWordCharacters": 5885,
+              "oracleWordKeystrokeReduction": 0.18317757009345795,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "everyday": {
+              "checkpoints": 1036,
+              "correct": 338,
+              "accuracy": 0.32625482625482627,
+              "coverage": 1.0,
+              "precision": 0.32625482625482627,
+              "errors": 0,
+              "p50ms": 151.558666,
+              "p95ms": 277.050375,
+              "correctFinalWithin500ms": 0.32625482625482627,
+              "oracleSavedWordCharacters": 790,
+              "referenceWordCharacters": 4531,
+              "oracleWordKeystrokeReduction": 0.17435444714191128,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "travel": {
+              "checkpoints": 1103,
+              "correct": 380,
+              "accuracy": 0.3445149592021759,
+              "coverage": 1.0,
+              "precision": 0.3445149592021759,
+              "errors": 0,
+              "p50ms": 175.676,
+              "p95ms": 351.389167,
+              "correctFinalWithin500ms": 0.3417951042611061,
+              "oracleSavedWordCharacters": 1003,
+              "referenceWordCharacters": 4836,
+              "oracleWordKeystrokeReduction": 0.2074028122415219,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            }
+          }
+        },
+        "screen": {
+          "checkpoints": 7437,
+          "correct": 3070,
+          "accuracy": 0.4128008605620546,
+          "coverage": 0.99986553717897,
+          "precision": 0.4128563743948359,
+          "errors": 0,
+          "p50ms": 130.944125,
+          "p95ms": 312.251708,
+          "correctFinalWithin500ms": 0.4119940836358747,
+          "oracleSavedWordCharacters": 9397,
+          "referenceWordCharacters": 35378,
+          "oracleWordKeystrokeReduction": 0.2656170501441574,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0,
+          "categories": {
+            "conversation": {
+              "checkpoints": 937,
+              "correct": 453,
+              "accuracy": 0.4834578441835646,
+              "coverage": 0.9989327641408752,
+              "precision": 0.483974358974359,
+              "errors": 0,
+              "p50ms": 93.266833,
+              "p95ms": 260.880209,
+              "correctFinalWithin500ms": 0.4823906083244397,
+              "oracleSavedWordCharacters": 1196,
+              "referenceWordCharacters": 3781,
+              "oracleWordKeystrokeReduction": 0.3163184342766464,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "science": {
+              "checkpoints": 1052,
+              "correct": 518,
+              "accuracy": 0.4923954372623574,
+              "coverage": 1.0,
+              "precision": 0.4923954372623574,
+              "errors": 0,
+              "p50ms": 159.632208,
+              "p95ms": 352.323917,
+              "correctFinalWithin500ms": 0.4923954372623574,
+              "oracleSavedWordCharacters": 2017,
+              "referenceWordCharacters": 5756,
+              "oracleWordKeystrokeReduction": 0.35041695621959695,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "entertainment": {
+              "checkpoints": 1065,
+              "correct": 407,
+              "accuracy": 0.38215962441314555,
+              "coverage": 1.0,
+              "precision": 0.38215962441314555,
+              "errors": 0,
+              "p50ms": 132.655084,
+              "p95ms": 307.52625,
+              "correctFinalWithin500ms": 0.38215962441314555,
+              "oracleSavedWordCharacters": 1227,
+              "referenceWordCharacters": 5064,
+              "oracleWordKeystrokeReduction": 0.24229857819905212,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "work": {
+              "checkpoints": 1113,
+              "correct": 430,
+              "accuracy": 0.3863432165318958,
+              "coverage": 1.0,
+              "precision": 0.3863432165318958,
+              "errors": 0,
+              "p50ms": 138.38275,
+              "p95ms": 299.027917,
+              "correctFinalWithin500ms": 0.3863432165318958,
+              "oracleSavedWordCharacters": 1366,
+              "referenceWordCharacters": 5525,
+              "oracleWordKeystrokeReduction": 0.24723981900452488,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "technology": {
+              "checkpoints": 1131,
+              "correct": 378,
+              "accuracy": 0.33421750663129973,
+              "coverage": 1.0,
+              "precision": 0.33421750663129973,
+              "errors": 0,
+              "p50ms": 132.176167,
+              "p95ms": 278.725417,
+              "correctFinalWithin500ms": 0.33421750663129973,
+              "oracleSavedWordCharacters": 1227,
+              "referenceWordCharacters": 5885,
+              "oracleWordKeystrokeReduction": 0.2084961767204758,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "everyday": {
+              "checkpoints": 1036,
+              "correct": 437,
+              "accuracy": 0.4218146718146718,
+              "coverage": 1.0,
+              "precision": 0.4218146718146718,
+              "errors": 0,
+              "p50ms": 116.80775,
+              "p95ms": 291.283125,
+              "correctFinalWithin500ms": 0.4218146718146718,
+              "oracleSavedWordCharacters": 1174,
+              "referenceWordCharacters": 4531,
+              "oracleWordKeystrokeReduction": 0.2591039505627897,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "travel": {
+              "checkpoints": 1103,
+              "correct": 447,
+              "accuracy": 0.40525838621940163,
+              "coverage": 1.0,
+              "precision": 0.40525838621940163,
+              "errors": 0,
+              "p50ms": 144.792167,
+              "p95ms": 363.499125,
+              "correctFinalWithin500ms": 0.40072529465095197,
+              "oracleSavedWordCharacters": 1190,
+              "referenceWordCharacters": 4836,
+              "oracleWordKeystrokeReduction": 0.24607113316790735,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            }
+          }
+        }
+      },
+      "partial": {
+        "none": {
+          "checkpoints": 232,
+          "correct": 202,
+          "accuracy": 0.8706896551724138,
+          "coverage": 1.0,
+          "precision": 0.8706896551724138,
+          "errors": 0,
+          "p50ms": 136.13325,
+          "p95ms": 300.268167,
+          "correctFinalWithin500ms": 0.8663793103448276,
+          "oracleSavedWordCharacters": 0,
+          "referenceWordCharacters": 0,
+          "oracleWordKeystrokeReduction": null,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0
+        },
+        "screen": {
+          "checkpoints": 232,
+          "correct": 217,
+          "accuracy": 0.9353448275862069,
+          "coverage": 0.9956896551724138,
+          "precision": 0.9393939393939394,
+          "errors": 0,
+          "p50ms": 100.871917,
+          "p95ms": 268.405125,
+          "correctFinalWithin500ms": 0.9353448275862069,
+          "oracleSavedWordCharacters": 0,
+          "referenceWordCharacters": 0,
+          "oracleWordKeystrokeReduction": null,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0
+        }
+      },
+      "timing": {
+        "none-reset": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 15,
+          "firstVisibleP50ms": 172.119084,
+          "firstVisibleP95ms": 222.839917,
+          "usefulBy500ms": 0.35714285714285715,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "none-prewarmed": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 15,
+          "firstVisibleP50ms": 104.498875,
+          "firstVisibleP95ms": 156.004375,
+          "usefulBy500ms": 0.35714285714285715,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "screen-reset": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 24,
+          "firstVisibleP50ms": 200.739708,
+          "firstVisibleP95ms": 318.3995,
+          "usefulBy500ms": 0.5714285714285714,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "screen-prewarmed": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 24,
+          "firstVisibleP50ms": 102.361542,
+          "firstVisibleP95ms": 173.140042,
+          "usefulBy500ms": 0.5714285714285714,
+          "revisions": 0,
+          "withdrawals": 0
+        }
+      },
+      "contextLiftPP": 6.696248487293266,
+      "resources": {
+        "processCPUSeconds": 370.773935,
+        "processPeakRSSBytes": 1623113728,
+        "wallSeconds": 2508.104287833
+      },
+      "metadata": {
+        "confidenceFloor": "-inf",
+        "configuration": "SuggestionConfiguration(maxPredictionTokens: 5, debounceMilliseconds: 20, temperature: 0.1, topK: 20, topP: 0.7, minP: 0.08, repetitionPenalty: 1.025, randomSeed: Optional(42), maxPrefixWords: 150, maxPrefixCharacters: 2500, maxPrefixWordsFoundationModel: 150, maxPrefixCharactersFoundationModel: 2500, maxSuffixCharacters: 192, llamaPromptTokenBudget: 1934, defaultUserName: Optional(\"Jacob\"), defaultWordCountPreset: Cotabby.SuggestionWordCountPreset.fourToSeven, focusPollIntervalMilliseconds: 50)",
+        "corpusSHA256": "b41c8089a58ae1e0ee84b95ac9283cf71db4e713e25bd8fed47220be69d8b0f6",
+        "engine": "llama",
+        "loadMilliseconds": "534.776",
+        "model": "/Users/jmcasler/Library/Application Support/Cotabby McHamster/LlamaRuntime/Qwen3.5-2B-Base.i1-Q4_K_M.gguf",
+        "os": "Version 27.0 (Build 26A428)",
+        "seed": "42",
+        "smoke": "false",
+        "stopAtArgmaxEOG": "true",
+        "wordCount": "4-7"
+      },
+      "cancellation": {
+        "trials": 28,
+        "completedBeforeCancel": 0,
+        "interrupted": 28,
+        "latePartials": 0,
+        "drainP50ms": 32.391208,
+        "drainP95ms": 59.319791,
+        "outcomes": {
+          "cancelled": 28
+        }
+      },
+      "interactions": {
+        "trials": 21,
+        "visibleTrials": 21,
+        "firstVisibleP50ms": 129.959417,
+        "firstVisibleP95ms": 141.229084,
+        "correctBy500ms": 0.2857142857142857,
+        "acceptanceAttempts": 63,
+        "accepted": 63,
+        "insertedCharacters": 297,
+        "insertionMismatches": 0,
+        "presentationsAfterBlockedFocus": 0,
+        "acceptedInBlockedField": 0,
+        "insertedInBlockedField": 0
+      }
+    }
+  },
+  "base": {
+    "manifest": {
+      "schemaVersion": 1,
+      "startedUTC": "2026-09-26T23:27:46.486395+00:00",
+      "label": "fork",
+      "model": "base",
+      "smoke": false,
+      "build": {
+        "source": {
+          "sourceSHA256": "1a7d308bd522b40e7d4ef4c524d599d8f59f3c57b7a34e027fd4bbbad0dfa786",
+          "nonLockSourceSHA256": "7f322fb1e5d3108c8542e018c40a56289418c513088cf361aec1a122e8838c43",
+          "packageLocks": {
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/Cotabby.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved": null,
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace/xcshareddata/swiftpm/Package.resolved": "a62b4e4717d575e380a1f3f7826c62bdad996988ef35367c4ba177bf87c39ef9",
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/CotabbyInference/Package.resolved": null
+          }
+        },
+        "productSHA256": "efd5b6a6d676211a1ca760ed4d1abfc1cedb327377424c79a9ff2a3be5589a21",
+        "xctestrun": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/DerivedData/Build/Products/Cotabby_macosx27.0-arm64.xctestrun",
+        "upstreamAdapter": false,
+        "workspace": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace",
+        "revision": "f31abbd59970a86fc5184d1b6b7525a4d7854c16"
+      },
+      "modelSHA256": "20f49b221691c71d955e1d5a840b6e26329db4a5e1626f702fa4226e80a9c629",
+      "modelBytes": 3845328608,
+      "corpusSHA256": "b41c8089a58ae1e0ee84b95ac9283cf71db4e713e25bd8fed47220be69d8b0f6",
+      "hardware": {
+        "hw.model": "MacBookPro18,4",
+        "hw.memsize": "34359738368",
+        "hw.ncpu": "10",
+        "machdep.cpu.brand_string": "Apple M1 Max"
+      },
+      "os": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0\nBuildVersion:\t\t26A428",
+      "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=24903779)\t80%; AC attached; not charging present: true",
+      "dependencyLocks": {
+        "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace/xcshareddata/swiftpm/Package.resolved": {
+          "originHash": "3e1c883782f4dc5210a108f02295937ed5bb4087a7655ae0f04bafa746e54ef3",
+          "pins": [
+            {
+              "identity": "launchatlogin-modern",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/sindresorhus/LaunchAtLogin-Modern",
+              "state": {
+                "revision": "a04ec1c363be3627734f6dad757d82f5d4fa8fcc",
+                "version": "1.1.0"
+              }
+            },
+            {
+              "identity": "sparkle",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/sparkle-project/Sparkle",
+              "state": {
+                "revision": "066e75a8b3e99962685d6a90cdd5293ebffd9261",
+                "version": "2.9.1"
+              }
+            },
+            {
+              "identity": "swift-log",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/apple/swift-log.git",
+              "state": {
+                "revision": "9c6fb14227f55d8f711ce3847dc2f419fb0ecacb",
+                "version": "1.15.1"
+              }
+            }
+          ],
+          "version": 3
+        }
+      },
+      "status": "complete",
+      "checkout": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby",
+      "harnessSHA256": {
+        "benchmark_scorecard.py": "4ac376bef41ac7cd74e3c7ad57bc06d0b917a09acbf0b30f90a81fe457639ac5",
+        "benchmark_report.py": "9a5cd9a1aa6c8597aa058459bb80e54ea1af6336c1d11bcfeb3aa95249adf6df",
+        "phrase_eval.py": "5d55387b1e2e20b0904e27332a7598b4144063ea4fbf1b75067226c337566427",
+        "BENCHMARK_METHODOLOGY.md": "a5bac2d3f01c5be669db1966e9757a9af79ffdea22c631efcde60311c7b1676b"
+      },
+      "localNativeDependencies": [
+        {
+          "path": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/CotabbyInference",
+          "revision": "7574a21516c65fc31f5cf8ef7380a03412eed480",
+          "status": "M README.md\n M Sources/CotabbyInferenceEngine/CotabbyInferenceEngine.cpp\n A Sources/CotabbyInferenceEngine/TokenHealing.cpp\n A Sources/CotabbyInferenceEngine/TokenHealing.h\n M Sources/CotabbyInferenceEngine/include/CotabbyInferenceEngine.h\n M Tests/CotabbyInferenceTests/LlamaMiddlewareTests.swift\n A Tests/TokenHealingTests.cpp",
+          "diffSHA256": "fa9c78a037f8fae0165dcecc85512719bd73514ac84854edf3cba73aa874400a"
+        }
+      ],
+      "summarySHA256": "bd16f457c0fb585bad7bbebd0aba40862f28ffb9ca3211db991515895bed68da",
+      "journalSHA256": "f806f3ab8645711e55c310f485b6d9d0d878bd2b8865ee8ef4431a9f945d44e6",
+      "finishedUTC": "2026-09-27T00:21:43.566240+00:00",
+      "powerAtFinish": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=24903779)\t80%; AC attached; not charging present: true"
+    },
+    "summary": {
+      "model": "base",
+      "label": "fork",
+      "smoke": false,
+      "revision": "f31abbd59970a86fc5184d1b6b7525a4d7854c16",
+      "conditions": {
+        "none": {
+          "checkpoints": 7437,
+          "correct": 2505,
+          "accuracy": 0.33682936668011293,
+          "coverage": 0.99986553717897,
+          "precision": 0.3368746637977407,
+          "errors": 0,
+          "p50ms": 221.53075,
+          "p95ms": 344.873291,
+          "correctFinalWithin500ms": 0.33682936668011293,
+          "oracleSavedWordCharacters": 7222,
+          "referenceWordCharacters": 35378,
+          "oracleWordKeystrokeReduction": 0.20413816496127538,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0,
+          "categories": {
+            "conversation": {
+              "checkpoints": 937,
+              "correct": 315,
+              "accuracy": 0.33617929562433296,
+              "coverage": 1.0,
+              "precision": 0.33617929562433296,
+              "errors": 0,
+              "p50ms": 194.545083,
+              "p95ms": 299.769,
+              "correctFinalWithin500ms": 0.33617929562433296,
+              "oracleSavedWordCharacters": 737,
+              "referenceWordCharacters": 3781,
+              "oracleWordKeystrokeReduction": 0.1949219783126157,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "science": {
+              "checkpoints": 1052,
+              "correct": 475,
+              "accuracy": 0.4515209125475285,
+              "coverage": 1.0,
+              "precision": 0.4515209125475285,
+              "errors": 0,
+              "p50ms": 212.058125,
+              "p95ms": 334.1685,
+              "correctFinalWithin500ms": 0.4515209125475285,
+              "oracleSavedWordCharacters": 1810,
+              "referenceWordCharacters": 5756,
+              "oracleWordKeystrokeReduction": 0.3144544822793607,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "entertainment": {
+              "checkpoints": 1065,
+              "correct": 326,
+              "accuracy": 0.3061032863849765,
+              "coverage": 1.0,
+              "precision": 0.3061032863849765,
+              "errors": 0,
+              "p50ms": 229.437916,
+              "p95ms": 345.809,
+              "correctFinalWithin500ms": 0.3061032863849765,
+              "oracleSavedWordCharacters": 904,
+              "referenceWordCharacters": 5064,
+              "oracleWordKeystrokeReduction": 0.17851500789889416,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "work": {
+              "checkpoints": 1113,
+              "correct": 348,
+              "accuracy": 0.31266846361185985,
+              "coverage": 1.0,
+              "precision": 0.31266846361185985,
+              "errors": 0,
+              "p50ms": 222.158917,
+              "p95ms": 344.724542,
+              "correctFinalWithin500ms": 0.31266846361185985,
+              "oracleSavedWordCharacters": 974,
+              "referenceWordCharacters": 5525,
+              "oracleWordKeystrokeReduction": 0.176289592760181,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "technology": {
+              "checkpoints": 1131,
+              "correct": 319,
+              "accuracy": 0.28205128205128205,
+              "coverage": 1.0,
+              "precision": 0.28205128205128205,
+              "errors": 0,
+              "p50ms": 226.677917,
+              "p95ms": 350.162791,
+              "correctFinalWithin500ms": 0.28205128205128205,
+              "oracleSavedWordCharacters": 976,
+              "referenceWordCharacters": 5885,
+              "oracleWordKeystrokeReduction": 0.16584536958368734,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "everyday": {
+              "checkpoints": 1036,
+              "correct": 352,
+              "accuracy": 0.33976833976833976,
+              "coverage": 0.999034749034749,
+              "precision": 0.34009661835748795,
+              "errors": 0,
+              "p50ms": 233.790875,
+              "p95ms": 358.830833,
+              "correctFinalWithin500ms": 0.33976833976833976,
+              "oracleSavedWordCharacters": 843,
+              "referenceWordCharacters": 4531,
+              "oracleWordKeystrokeReduction": 0.1860516442286471,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "travel": {
+              "checkpoints": 1103,
+              "correct": 370,
+              "accuracy": 0.3354487760652765,
+              "coverage": 1.0,
+              "precision": 0.3354487760652765,
+              "errors": 0,
+              "p50ms": 216.307833,
+              "p95ms": 347.246208,
+              "correctFinalWithin500ms": 0.3354487760652765,
+              "oracleSavedWordCharacters": 978,
+              "referenceWordCharacters": 4836,
+              "oracleWordKeystrokeReduction": 0.2022332506203474,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            }
+          }
+        },
+        "screen": {
+          "checkpoints": 7437,
+          "correct": 3224,
+          "accuracy": 0.4335081350006723,
+          "coverage": 0.9997310743579401,
+          "precision": 0.43362474781439136,
+          "errors": 0,
+          "p50ms": 179.189667,
+          "p95ms": 388.804833,
+          "correctFinalWithin500ms": 0.43337367217964234,
+          "oracleSavedWordCharacters": 9740,
+          "referenceWordCharacters": 35378,
+          "oracleWordKeystrokeReduction": 0.27531234100288315,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0,
+          "categories": {
+            "conversation": {
+              "checkpoints": 937,
+              "correct": 475,
+              "accuracy": 0.5069370330843116,
+              "coverage": 1.0,
+              "precision": 0.5069370330843116,
+              "errors": 0,
+              "p50ms": 125.292459,
+              "p95ms": 321.945125,
+              "correctFinalWithin500ms": 0.5069370330843116,
+              "oracleSavedWordCharacters": 1211,
+              "referenceWordCharacters": 3781,
+              "oracleWordKeystrokeReduction": 0.3202856387199154,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "science": {
+              "checkpoints": 1052,
+              "correct": 490,
+              "accuracy": 0.46577946768060835,
+              "coverage": 0.9980988593155894,
+              "precision": 0.4666666666666667,
+              "errors": 0,
+              "p50ms": 179.738084,
+              "p95ms": 403.839125,
+              "correctFinalWithin500ms": 0.46577946768060835,
+              "oracleSavedWordCharacters": 1845,
+              "referenceWordCharacters": 5756,
+              "oracleWordKeystrokeReduction": 0.3205350938151494,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "entertainment": {
+              "checkpoints": 1065,
+              "correct": 451,
+              "accuracy": 0.42347417840375584,
+              "coverage": 1.0,
+              "precision": 0.42347417840375584,
+              "errors": 0,
+              "p50ms": 183.242083,
+              "p95ms": 384.291083,
+              "correctFinalWithin500ms": 0.42347417840375584,
+              "oracleSavedWordCharacters": 1365,
+              "referenceWordCharacters": 5064,
+              "oracleWordKeystrokeReduction": 0.26954976303317535,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "work": {
+              "checkpoints": 1113,
+              "correct": 459,
+              "accuracy": 0.4123989218328841,
+              "coverage": 1.0,
+              "precision": 0.4123989218328841,
+              "errors": 0,
+              "p50ms": 185.165875,
+              "p95ms": 386.60725,
+              "correctFinalWithin500ms": 0.4115004492362983,
+              "oracleSavedWordCharacters": 1430,
+              "referenceWordCharacters": 5525,
+              "oracleWordKeystrokeReduction": 0.25882352941176473,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "technology": {
+              "checkpoints": 1131,
+              "correct": 374,
+              "accuracy": 0.3306808134394341,
+              "coverage": 1.0,
+              "precision": 0.3306808134394341,
+              "errors": 0,
+              "p50ms": 232.715916,
+              "p95ms": 414.359584,
+              "correctFinalWithin500ms": 0.3306808134394341,
+              "oracleSavedWordCharacters": 1253,
+              "referenceWordCharacters": 5885,
+              "oracleWordKeystrokeReduction": 0.2129141886151232,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "everyday": {
+              "checkpoints": 1036,
+              "correct": 472,
+              "accuracy": 0.4555984555984556,
+              "coverage": 1.0,
+              "precision": 0.4555984555984556,
+              "errors": 0,
+              "p50ms": 164.864416,
+              "p95ms": 386.674708,
+              "correctFinalWithin500ms": 0.4555984555984556,
+              "oracleSavedWordCharacters": 1272,
+              "referenceWordCharacters": 4531,
+              "oracleWordKeystrokeReduction": 0.28073273008165966,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "travel": {
+              "checkpoints": 1103,
+              "correct": 503,
+              "accuracy": 0.45602901178603805,
+              "coverage": 1.0,
+              "precision": 0.45602901178603805,
+              "errors": 0,
+              "p50ms": 160.729042,
+              "p95ms": 383.8865,
+              "correctFinalWithin500ms": 0.45602901178603805,
+              "oracleSavedWordCharacters": 1364,
+              "referenceWordCharacters": 4836,
+              "oracleWordKeystrokeReduction": 0.28205128205128205,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            }
+          }
+        }
+      },
+      "partial": {
+        "none": {
+          "checkpoints": 232,
+          "correct": 206,
+          "accuracy": 0.8879310344827587,
+          "coverage": 1.0,
+          "precision": 0.8879310344827587,
+          "errors": 0,
+          "p50ms": 181.609666,
+          "p95ms": 305.331417,
+          "correctFinalWithin500ms": 0.8879310344827587,
+          "oracleSavedWordCharacters": 0,
+          "referenceWordCharacters": 0,
+          "oracleWordKeystrokeReduction": null,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0
+        },
+        "screen": {
+          "checkpoints": 232,
+          "correct": 217,
+          "accuracy": 0.9353448275862069,
+          "coverage": 1.0,
+          "precision": 0.9353448275862069,
+          "errors": 0,
+          "p50ms": 124.905958,
+          "p95ms": 287.472916,
+          "correctFinalWithin500ms": 0.9353448275862069,
+          "oracleSavedWordCharacters": 0,
+          "referenceWordCharacters": 0,
+          "oracleWordKeystrokeReduction": null,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0
+        }
+      },
+      "timing": {
+        "none-reset": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 12,
+          "firstVisibleP50ms": 169.544333,
+          "firstVisibleP95ms": 235.064125,
+          "usefulBy500ms": 0.2857142857142857,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "none-prewarmed": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 12,
+          "firstVisibleP50ms": 99.858166,
+          "firstVisibleP95ms": 126.914958,
+          "usefulBy500ms": 0.2857142857142857,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "screen-reset": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 21,
+          "firstVisibleP50ms": 226.194542,
+          "firstVisibleP95ms": 292.537292,
+          "usefulBy500ms": 0.5,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "screen-prewarmed": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 21,
+          "firstVisibleP50ms": 104.87625,
+          "firstVisibleP95ms": 132.129417,
+          "usefulBy500ms": 0.5,
+          "revisions": 0,
+          "withdrawals": 0
+        }
+      },
+      "contextLiftPP": 9.667876832055939,
+      "resources": {
+        "processCPUSeconds": 393.87407099999996,
+        "processPeakRSSBytes": 4174561280,
+        "wallSeconds": 3229.391702083
+      },
+      "metadata": {
+        "confidenceFloor": "-inf",
+        "configuration": "SuggestionConfiguration(maxPredictionTokens: 5, debounceMilliseconds: 20, temperature: 0.1, topK: 20, topP: 0.7, minP: 0.08, repetitionPenalty: 1.025, randomSeed: Optional(42), maxPrefixWords: 150, maxPrefixCharacters: 2500, maxPrefixWordsFoundationModel: 150, maxPrefixCharactersFoundationModel: 2500, maxSuffixCharacters: 192, llamaPromptTokenBudget: 1934, defaultUserName: Optional(\"Jacob\"), defaultWordCountPreset: Cotabby.SuggestionWordCountPreset.fourToSeven, focusPollIntervalMilliseconds: 50)",
+        "corpusSHA256": "b41c8089a58ae1e0ee84b95ac9283cf71db4e713e25bd8fed47220be69d8b0f6",
+        "engine": "llama",
+        "loadMilliseconds": "782.261583",
+        "model": "/Users/jmcasler/Library/Application Support/Cotabby McHamster/LlamaRuntime/gemma-4-E2B.i1-Q6_K.gguf",
+        "os": "Version 27.0 (Build 26A428)",
+        "seed": "42",
+        "smoke": "false",
+        "stopAtArgmaxEOG": "true",
+        "wordCount": "4-7"
+      },
+      "cancellation": {
+        "trials": 28,
+        "completedBeforeCancel": 0,
+        "interrupted": 28,
+        "latePartials": 0,
+        "drainP50ms": 39.779791,
+        "drainP95ms": 71.615125,
+        "outcomes": {
+          "cancelled": 28
+        }
+      },
+      "interactions": {
+        "trials": 21,
+        "visibleTrials": 21,
+        "firstVisibleP50ms": 160.129958,
+        "firstVisibleP95ms": 176.5465,
+        "correctBy500ms": 0.14285714285714285,
+        "acceptanceAttempts": 63,
+        "accepted": 63,
+        "insertedCharacters": 300,
+        "insertionMismatches": 0,
+        "presentationsAfterBlockedFocus": 0,
+        "acceptedInBlockedField": 0,
+        "insertedInBlockedField": 0
+      }
+    }
+  },
+  "pro": {
+    "manifest": {
+      "schemaVersion": 1,
+      "startedUTC": "2026-09-27T00:21:45.371349+00:00",
+      "label": "fork",
+      "model": "pro",
+      "smoke": false,
+      "build": {
+        "source": {
+          "sourceSHA256": "1a7d308bd522b40e7d4ef4c524d599d8f59f3c57b7a34e027fd4bbbad0dfa786",
+          "nonLockSourceSHA256": "7f322fb1e5d3108c8542e018c40a56289418c513088cf361aec1a122e8838c43",
+          "packageLocks": {
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/Cotabby.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved": null,
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace/xcshareddata/swiftpm/Package.resolved": "a62b4e4717d575e380a1f3f7826c62bdad996988ef35367c4ba177bf87c39ef9",
+            "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/CotabbyInference/Package.resolved": null
+          }
+        },
+        "productSHA256": "efd5b6a6d676211a1ca760ed4d1abfc1cedb327377424c79a9ff2a3be5589a21",
+        "xctestrun": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/DerivedData/Build/Products/Cotabby_macosx27.0-arm64.xctestrun",
+        "upstreamAdapter": false,
+        "workspace": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace",
+        "revision": "f31abbd59970a86fc5184d1b6b7525a4d7854c16"
+      },
+      "modelSHA256": "687f4cce47eac6ccfc595fd9517215fb964e5e5be17d4774b25b8add401d6d3c",
+      "modelBytes": 5335274240,
+      "corpusSHA256": "b41c8089a58ae1e0ee84b95ac9283cf71db4e713e25bd8fed47220be69d8b0f6",
+      "hardware": {
+        "hw.model": "MacBookPro18,4",
+        "hw.memsize": "34359738368",
+        "hw.ncpu": "10",
+        "machdep.cpu.brand_string": "Apple M1 Max"
+      },
+      "os": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0\nBuildVersion:\t\t26A428",
+      "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=24903779)\t80%; AC attached; not charging present: true",
+      "dependencyLocks": {
+        "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/Cotabby.xcworkspace/xcshareddata/swiftpm/Package.resolved": {
+          "originHash": "3e1c883782f4dc5210a108f02295937ed5bb4087a7655ae0f04bafa746e54ef3",
+          "pins": [
+            {
+              "identity": "launchatlogin-modern",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/sindresorhus/LaunchAtLogin-Modern",
+              "state": {
+                "revision": "a04ec1c363be3627734f6dad757d82f5d4fa8fcc",
+                "version": "1.1.0"
+              }
+            },
+            {
+              "identity": "sparkle",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/sparkle-project/Sparkle",
+              "state": {
+                "revision": "066e75a8b3e99962685d6a90cdd5293ebffd9261",
+                "version": "2.9.1"
+              }
+            },
+            {
+              "identity": "swift-log",
+              "kind": "remoteSourceControl",
+              "location": "https://github.com/apple/swift-log.git",
+              "state": {
+                "revision": "9c6fb14227f55d8f711ce3847dc2f419fb0ecacb",
+                "version": "1.15.1"
+              }
+            }
+          ],
+          "version": 3
+        }
+      },
+      "status": "complete",
+      "checkout": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby",
+      "harnessSHA256": {
+        "benchmark_scorecard.py": "4ac376bef41ac7cd74e3c7ad57bc06d0b917a09acbf0b30f90a81fe457639ac5",
+        "benchmark_report.py": "9a5cd9a1aa6c8597aa058459bb80e54ea1af6336c1d11bcfeb3aa95249adf6df",
+        "phrase_eval.py": "5d55387b1e2e20b0904e27332a7598b4144063ea4fbf1b75067226c337566427",
+        "BENCHMARK_METHODOLOGY.md": "a5bac2d3f01c5be669db1966e9757a9af79ffdea22c631efcde60311c7b1676b"
+      },
+      "localNativeDependencies": [
+        {
+          "path": "/Users/jmcasler/.codex/worktrees/fork-scorecard/cotabby/build/cotabby-dependencies/CotabbyInference",
+          "revision": "7574a21516c65fc31f5cf8ef7380a03412eed480",
+          "status": "M README.md\n M Sources/CotabbyInferenceEngine/CotabbyInferenceEngine.cpp\n A Sources/CotabbyInferenceEngine/TokenHealing.cpp\n A Sources/CotabbyInferenceEngine/TokenHealing.h\n M Sources/CotabbyInferenceEngine/include/CotabbyInferenceEngine.h\n M Tests/CotabbyInferenceTests/LlamaMiddlewareTests.swift\n A Tests/TokenHealingTests.cpp",
+          "diffSHA256": "fa9c78a037f8fae0165dcecc85512719bd73514ac84854edf3cba73aa874400a"
+        }
+      ],
+      "summarySHA256": "fe13170be242c0595fe3893de2e3394108c4b680f85a2648061fdedc3147979c",
+      "journalSHA256": "bc4039b5f75e07e437f2446dae4396d20a273ff6c47d5b5773e41bb4f58727dc",
+      "finishedUTC": "2026-09-27T01:49:16.717406+00:00",
+      "powerAtFinish": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=24903779)\t80%; AC attached; not charging present: true"
+    },
+    "summary": {
+      "model": "pro",
+      "label": "fork",
+      "smoke": false,
+      "revision": "f31abbd59970a86fc5184d1b6b7525a4d7854c16",
+      "conditions": {
+        "none": {
+          "checkpoints": 7437,
+          "correct": 2529,
+          "accuracy": 0.3400564743848326,
+          "coverage": 0.99986553717897,
+          "precision": 0.34010220548682085,
+          "errors": 0,
+          "p50ms": 352.521916,
+          "p95ms": 586.69475,
+          "correctFinalWithin500ms": 0.3177356460938551,
+          "oracleSavedWordCharacters": 7185,
+          "referenceWordCharacters": 35378,
+          "oracleWordKeystrokeReduction": 0.2030923172593137,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0,
+          "categories": {
+            "conversation": {
+              "checkpoints": 937,
+              "correct": 324,
+              "accuracy": 0.3457844183564568,
+              "coverage": 1.0,
+              "precision": 0.3457844183564568,
+              "errors": 0,
+              "p50ms": 323.772208,
+              "p95ms": 553.306625,
+              "correctFinalWithin500ms": 0.33084311632870866,
+              "oracleSavedWordCharacters": 728,
+              "referenceWordCharacters": 3781,
+              "oracleWordKeystrokeReduction": 0.19254165564665432,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "science": {
+              "checkpoints": 1052,
+              "correct": 474,
+              "accuracy": 0.4505703422053232,
+              "coverage": 1.0,
+              "precision": 0.4505703422053232,
+              "errors": 0,
+              "p50ms": 351.505583,
+              "p95ms": 593.763458,
+              "correctFinalWithin500ms": 0.4230038022813688,
+              "oracleSavedWordCharacters": 1780,
+              "referenceWordCharacters": 5756,
+              "oracleWordKeystrokeReduction": 0.3092425295343989,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "entertainment": {
+              "checkpoints": 1065,
+              "correct": 334,
+              "accuracy": 0.3136150234741784,
+              "coverage": 1.0,
+              "precision": 0.3136150234741784,
+              "errors": 0,
+              "p50ms": 382.867542,
+              "p95ms": 589.541584,
+              "correctFinalWithin500ms": 0.29295774647887324,
+              "oracleSavedWordCharacters": 932,
+              "referenceWordCharacters": 5064,
+              "oracleWordKeystrokeReduction": 0.18404423380726698,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "work": {
+              "checkpoints": 1113,
+              "correct": 359,
+              "accuracy": 0.3225516621743037,
+              "coverage": 1.0,
+              "precision": 0.3225516621743037,
+              "errors": 0,
+              "p50ms": 348.855167,
+              "p95ms": 589.15025,
+              "correctFinalWithin500ms": 0.31266846361185985,
+              "oracleSavedWordCharacters": 1034,
+              "referenceWordCharacters": 5525,
+              "oracleWordKeystrokeReduction": 0.18714932126696832,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "technology": {
+              "checkpoints": 1131,
+              "correct": 327,
+              "accuracy": 0.2891246684350133,
+              "coverage": 1.0,
+              "precision": 0.2891246684350133,
+              "errors": 0,
+              "p50ms": 365.988416,
+              "p95ms": 600.616375,
+              "correctFinalWithin500ms": 0.26525198938992045,
+              "oracleSavedWordCharacters": 931,
+              "referenceWordCharacters": 5885,
+              "oracleWordKeystrokeReduction": 0.15819881053525914,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "everyday": {
+              "checkpoints": 1036,
+              "correct": 342,
+              "accuracy": 0.3301158301158301,
+              "coverage": 0.999034749034749,
+              "precision": 0.33043478260869563,
+              "errors": 0,
+              "p50ms": 348.791125,
+              "p95ms": 579.639125,
+              "correctFinalWithin500ms": 0.3001930501930502,
+              "oracleSavedWordCharacters": 825,
+              "referenceWordCharacters": 4531,
+              "oracleWordKeystrokeReduction": 0.18207901125579343,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "travel": {
+              "checkpoints": 1103,
+              "correct": 369,
+              "accuracy": 0.3345421577515866,
+              "coverage": 1.0,
+              "precision": 0.3345421577515866,
+              "errors": 0,
+              "p50ms": 323.546625,
+              "p95ms": 582.098541,
+              "correctFinalWithin500ms": 0.3055303717135086,
+              "oracleSavedWordCharacters": 955,
+              "referenceWordCharacters": 4836,
+              "oracleWordKeystrokeReduction": 0.19747725392886684,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            }
+          }
+        },
+        "screen": {
+          "checkpoints": 7437,
+          "correct": 3265,
+          "accuracy": 0.4390211106629017,
+          "coverage": 0.9997310743579401,
+          "precision": 0.43913920645595156,
+          "errors": 0,
+          "p50ms": 281.628708,
+          "p95ms": 703.092958,
+          "correctFinalWithin500ms": 0.4016404464165658,
+          "oracleSavedWordCharacters": 9928,
+          "referenceWordCharacters": 35378,
+          "oracleWordKeystrokeReduction": 0.2806263779750127,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0,
+          "categories": {
+            "conversation": {
+              "checkpoints": 937,
+              "correct": 475,
+              "accuracy": 0.5069370330843116,
+              "coverage": 1.0,
+              "precision": 0.5069370330843116,
+              "errors": 0,
+              "p50ms": 210.495417,
+              "p95ms": 613.802209,
+              "correctFinalWithin500ms": 0.4887940234791889,
+              "oracleSavedWordCharacters": 1229,
+              "referenceWordCharacters": 3781,
+              "oracleWordKeystrokeReduction": 0.32504628405183816,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "science": {
+              "checkpoints": 1052,
+              "correct": 518,
+              "accuracy": 0.4923954372623574,
+              "coverage": 0.9980988593155894,
+              "precision": 0.49333333333333335,
+              "errors": 0,
+              "p50ms": 321.246208,
+              "p95ms": 752.116167,
+              "correctFinalWithin500ms": 0.4372623574144487,
+              "oracleSavedWordCharacters": 1976,
+              "referenceWordCharacters": 5756,
+              "oracleWordKeystrokeReduction": 0.34329395413481584,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "entertainment": {
+              "checkpoints": 1065,
+              "correct": 450,
+              "accuracy": 0.4225352112676056,
+              "coverage": 1.0,
+              "precision": 0.4225352112676056,
+              "errors": 0,
+              "p50ms": 295.357584,
+              "p95ms": 691.265416,
+              "correctFinalWithin500ms": 0.39436619718309857,
+              "oracleSavedWordCharacters": 1329,
+              "referenceWordCharacters": 5064,
+              "oracleWordKeystrokeReduction": 0.26244075829383884,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "work": {
+              "checkpoints": 1113,
+              "correct": 463,
+              "accuracy": 0.4159928122192273,
+              "coverage": 1.0,
+              "precision": 0.4159928122192273,
+              "errors": 0,
+              "p50ms": 290.651959,
+              "p95ms": 691.305666,
+              "correctFinalWithin500ms": 0.38544474393531,
+              "oracleSavedWordCharacters": 1462,
+              "referenceWordCharacters": 5525,
+              "oracleWordKeystrokeReduction": 0.26461538461538464,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "technology": {
+              "checkpoints": 1131,
+              "correct": 388,
+              "accuracy": 0.34305923961096374,
+              "coverage": 1.0,
+              "precision": 0.34305923961096374,
+              "errors": 0,
+              "p50ms": 333.833375,
+              "p95ms": 715.112125,
+              "correctFinalWithin500ms": 0.3129973474801061,
+              "oracleSavedWordCharacters": 1246,
+              "referenceWordCharacters": 5885,
+              "oracleWordKeystrokeReduction": 0.2117247238742566,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "everyday": {
+              "checkpoints": 1036,
+              "correct": 479,
+              "accuracy": 0.4623552123552124,
+              "coverage": 1.0,
+              "precision": 0.4623552123552124,
+              "errors": 0,
+              "p50ms": 256.238625,
+              "p95ms": 682.640042,
+              "correctFinalWithin500ms": 0.416988416988417,
+              "oracleSavedWordCharacters": 1322,
+              "referenceWordCharacters": 4531,
+              "oracleWordKeystrokeReduction": 0.29176782167291987,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            },
+            "travel": {
+              "checkpoints": 1103,
+              "correct": 492,
+              "accuracy": 0.4460562103354488,
+              "coverage": 1.0,
+              "precision": 0.4460562103354488,
+              "errors": 0,
+              "p50ms": 260.692125,
+              "p95ms": 711.572917,
+              "correctFinalWithin500ms": 0.39347234814143245,
+              "oracleSavedWordCharacters": 1364,
+              "referenceWordCharacters": 4836,
+              "oracleWordKeystrokeReduction": 0.28205128205128205,
+              "hygieneFlags": {
+                "templateOrFence": 0,
+                "repeatedPunctuation": 0,
+                "repeatedWord": 0,
+                "assistantPreface": 0
+              },
+              "hygieneFlaggedOutputRate": 0.0
+            }
+          }
+        }
+      },
+      "partial": {
+        "none": {
+          "checkpoints": 232,
+          "correct": 199,
+          "accuracy": 0.8577586206896551,
+          "coverage": 1.0,
+          "precision": 0.8577586206896551,
+          "errors": 0,
+          "p50ms": 303.430584,
+          "p95ms": 494.098125,
+          "correctFinalWithin500ms": 0.8405172413793104,
+          "oracleSavedWordCharacters": 0,
+          "referenceWordCharacters": 0,
+          "oracleWordKeystrokeReduction": null,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0
+        },
+        "screen": {
+          "checkpoints": 232,
+          "correct": 217,
+          "accuracy": 0.9353448275862069,
+          "coverage": 1.0,
+          "precision": 0.9353448275862069,
+          "errors": 0,
+          "p50ms": 174.967625,
+          "p95ms": 483.109834,
+          "correctFinalWithin500ms": 0.9008620689655172,
+          "oracleSavedWordCharacters": 0,
+          "referenceWordCharacters": 0,
+          "oracleWordKeystrokeReduction": null,
+          "hygieneFlags": {
+            "templateOrFence": 0,
+            "repeatedPunctuation": 0,
+            "repeatedWord": 0,
+            "assistantPreface": 0
+          },
+          "hygieneFlaggedOutputRate": 0.0
+        }
+      },
+      "timing": {
+        "none-reset": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 12,
+          "firstVisibleP50ms": 302.560417,
+          "firstVisibleP95ms": 444.586209,
+          "usefulBy500ms": 0.2857142857142857,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "none-prewarmed": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 12,
+          "firstVisibleP50ms": 170.962209,
+          "firstVisibleP95ms": 234.50925,
+          "usefulBy500ms": 0.2857142857142857,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "screen-reset": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 21,
+          "firstVisibleP50ms": 398.478042,
+          "firstVisibleP95ms": 562.243416,
+          "usefulBy500ms": 0.47619047619047616,
+          "revisions": 0,
+          "withdrawals": 0
+        },
+        "screen-prewarmed": {
+          "trials": 42,
+          "visibleTrials": 42,
+          "correctTrials": 21,
+          "firstVisibleP50ms": 173.210917,
+          "firstVisibleP95ms": 222.793083,
+          "usefulBy500ms": 0.5,
+          "revisions": 0,
+          "withdrawals": 0
+        }
+      },
+      "contextLiftPP": 9.896463627806911,
+      "resources": {
+        "processCPUSeconds": 431.20894699999997,
+        "processPeakRSSBytes": 5710757888,
+        "wallSeconds": 5241.5126085
+      },
+      "metadata": {
+        "confidenceFloor": "-inf",
+        "configuration": "SuggestionConfiguration(maxPredictionTokens: 5, debounceMilliseconds: 20, temperature: 0.1, topK: 20, topP: 0.7, minP: 0.08, repetitionPenalty: 1.025, randomSeed: Optional(42), maxPrefixWords: 150, maxPrefixCharacters: 2500, maxPrefixWordsFoundationModel: 150, maxPrefixCharactersFoundationModel: 2500, maxSuffixCharacters: 192, llamaPromptTokenBudget: 1934, defaultUserName: Optional(\"Jacob\"), defaultWordCountPreset: Cotabby.SuggestionWordCountPreset.fourToSeven, focusPollIntervalMilliseconds: 50)",
+        "corpusSHA256": "b41c8089a58ae1e0ee84b95ac9283cf71db4e713e25bd8fed47220be69d8b0f6",
+        "engine": "llama",
+        "loadMilliseconds": "1038.148666",
+        "model": "/Users/jmcasler/Library/Application Support/Cotabby McHamster/LlamaRuntime/gemma-4-E4B.i1-Q4_K_M.gguf",
+        "os": "Version 27.0 (Build 26A428)",
+        "seed": "42",
+        "smoke": "false",
+        "stopAtArgmaxEOG": "true",
+        "wordCount": "4-7"
+      },
+      "cancellation": {
+        "trials": 28,
+        "completedBeforeCancel": 0,
+        "interrupted": 28,
+        "latePartials": 0,
+        "drainP50ms": 71.819417,
+        "drainP95ms": 165.787791,
+        "outcomes": {
+          "cancelled": 28
+        }
+      },
+      "interactions": {
+        "trials": 21,
+        "visibleTrials": 21,
+        "firstVisibleP50ms": 202.185,
+        "firstVisibleP95ms": 237.885792,
+        "correctBy500ms": 0.14285714285714285,
+        "acceptanceAttempts": 63,
+        "accepted": 63,
+        "insertedCharacters": 291,
+        "insertionMismatches": 0,
+        "presentationsAfterBlockedFocus": 0,
+        "acceptedInBlockedField": 0,
+        "insertedInBlockedField": 0
+      }
+    }
+  }
+}
